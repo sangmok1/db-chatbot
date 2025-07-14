@@ -40,3 +40,32 @@ git checkout main
 git reset --hard master
 # 3. 강제 push
 git push origin main --force
+git add .
+git commit -m "feat: /describe API endpoint"
+git push origin main  # 또는 master, 현재 브랜치 확인해서
+rm .git-credentials
+git rm --cached .git-credentials
+git commit -m "remove .git-credentials to avoid token exposure"
+git push origin main
+echo ".git-credentials" >> .gitignore
+git add .gitignore
+git commit -m "chore: ignore .git-credentials"
+git push origin main
+rm .git-credentials
+git rm --cached .git-credentials
+rm .git-credentials
+git rm --cached .git-credentials
+git commit -m "remove .git-credentials to pass push protection"
+git log --name-only --oneline | grep .git-credentials
+git filter-branch --force --index-filter   "git rm --cached --ignore-unmatch .git-credentials"   --prune-empty --tag-name-filter cat -- --all
+git push origin --force --all
+git filter-branch --force --index-filter   "git rm --cached --ignore-unmatch .git-credentials"   --prune-empty --tag-name-filter cat -- --all
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git gc --prune=now
+git push origin --force --all
+echo ".git-credentials" >> .gitignore
+echo ".cache/" >> .gitignore
+git add .gitignore
+git commit -m "chore: ignore sensitive and large files"
+git status
