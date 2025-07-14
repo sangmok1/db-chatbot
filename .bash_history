@@ -26,3 +26,9 @@ git config --global user.email tkdahr1331@gmail.com
 git push --set-upstream origin master
 git push --set-upstream origin main
 git status
+git add .
+git commit -m "."
+git push origin
+git push --set-upstream origin master
+git config --global credential.helper store
+git status
