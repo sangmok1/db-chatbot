@@ -1,0 +1,13 @@
+2025-07-14 07:59:45.352 [info] 
+
+
+
+
+2025-07-14 07:59:45.370 [info] Extension host agent started.
+2025-07-14 07:59:45.385 [info] Started initializing default profile extensions in extensions installation folder. file:///home/tkdahr1331/.codeoss/extensions
+2025-07-14 07:59:45.402 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/tkdahr1331/.codeoss/extensions
+2025-07-14 07:59:47.576 [info] [127.0.0.1][66d0f5f0][ManagementConnection] New connection established.
+2025-07-14 07:59:47.806 [info] [127.0.0.1][97d5ed71][ExtensionHostConnection] New connection established.
+2025-07-14 07:59:49.530 [info] [127.0.0.1][97d5ed71][ExtensionHostConnection] <1334> Launched Extension Host Process.
+2025-07-14 07:59:54.996 [info] [127.0.0.1][66d0f5f0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-07-14 08:00:00.761 [info] [127.0.0.1][97d5ed71][ExtensionHostConnection] <1334> Extension Host Process exited with code: 0, signal: null.
