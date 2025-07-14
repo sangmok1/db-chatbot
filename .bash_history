@@ -32,3 +32,11 @@ git push origin
 git push --set-upstream origin master
 git config --global credential.helper store
 git status
+# 1. .bash_history 무시하고 main 브랜치로 진입
+git restore --staged .bash_history
+git checkout -- .bash_history
+git checkout main
+# 2. master 브랜치 내용을 main에 덮어쓰기
+git reset --hard master
+# 3. 강제 push
+git push origin main --force

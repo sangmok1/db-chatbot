@@ -1,0 +1,103 @@
+2025-07-14 08:37:52.677 [warning] Dir "/home/tkdahr1331/.pixi/envs" is not watchable (directory does not exist)
+2025-07-14 08:37:52.677 [info] Starting Environment refresh
+2025-07-14 08:37:52.677 [info] Searching for interpreters in posix paths locator
+2025-07-14 08:37:52.677 [info] Searching for pyenv environments
+2025-07-14 08:37:52.677 [info] Searching for conda environments
+2025-07-14 08:37:52.677 [info] Searching for global virtual environments
+2025-07-14 08:37:52.677 [info] Searching for custom virtual environments
+2025-07-14 08:37:52.677 [info] pyenv is not installed
+2025-07-14 08:37:52.677 [info] Finished searching for pyenv environments: 1402 milliseconds
+2025-07-14 08:37:52.677 [info] Finished searching for custom virtual envs: 1402 milliseconds
+2025-07-14 08:37:52.677 [info] > conda info --json
+2025-07-14 08:37:52.677 [info] > hatch env show --json
+2025-07-14 08:37:52.677 [info] cwd: .
+2025-07-14 08:37:52.677 [info] > pyenv which python
+2025-07-14 08:37:52.677 [info] cwd: .
+2025-07-14 08:37:52.677 [info] Finished searching for global virtual envs: 1424 milliseconds
+2025-07-14 08:37:52.724 [info] Found: /bin/python --> /bin/python3.12
+2025-07-14 08:37:52.747 [info] Found: /bin/python3 --> /bin/python3.12
+2025-07-14 08:37:52.761 [info] Found: /bin/python3.12 --> /bin/python3.12
+2025-07-14 08:37:52.829 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2025-07-14 08:37:52.844 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2025-07-14 08:37:52.848 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2025-07-14 08:37:55.577 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-07-14 08:37:56.315 [info] Finished searching for interpreters in posix paths locator: 5092 milliseconds
+2025-07-14 08:37:56.315 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-07-14 08:37:56.473 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-07-14 08:37:56.473 [info] Environments refresh paths discovered (event): 5261 milliseconds
+2025-07-14 08:37:56.473 [info] Environments refresh paths discovered: 5261 milliseconds
+2025-07-14 08:37:56.525 [info] Environments refresh finished (event): 5313 milliseconds
+2025-07-14 08:37:56.539 [info] Environment refresh took 5327 milliseconds
+2025-07-14 08:37:56.545 [info] Python interpreter path: /bin/python
+2025-07-14 08:37:59.448 [info] Starting Jedi language server for tkdahr1331.
+2025-07-14 08:38:28.645 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/tkdahr1331/requirements.txt
+2025-07-14 08:38:28.645 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-07-14 08:39:27.197 [info] Discover tests for workspace name: tkdahr1331 - uri: /home/tkdahr1331/app.py
+2025-07-14 08:39:28.097 [info] Discover tests for workspace name: tkdahr1331 - uri: /home/tkdahr1331/app.py
+2025-07-14 08:39:28.485 [info] Discover tests for workspace name: tkdahr1331 - uri: /home/tkdahr1331/app.py
+2025-07-14 08:39:32.633 [info] Discover tests for workspace name: tkdahr1331 - uri: /home/tkdahr1331/app.py
+2025-07-14 08:39:34.571 [info] Discover tests for workspace name: tkdahr1331 - uri: /home/tkdahr1331/app.py
+2025-07-14 08:39:35.506 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/tkdahr1331/requirements.txt
+2025-07-14 08:39:35.506 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-07-14 08:39:37.585 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/tkdahr1331/requirements.txt
+2025-07-14 08:39:37.585 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
