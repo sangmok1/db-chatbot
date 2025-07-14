@@ -53,3 +53,9 @@ git push origin main --force
 git checkout -b feature/add-docker
 git push --set-upstream origin feature/add-docker
 git status
+git add .
+git commit -m "fix"
+git push origin
+git push --set-upstream origin feature/add-docker
+git config --global --unset credential.helper
+git status
