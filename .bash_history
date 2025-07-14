@@ -40,3 +40,16 @@ git push origin
 git push --set-upstream origin master
 git status
 git push origin
+# 1. 현재 디렉토리에서 main 브랜치로 체크아웃
+git checkout -b main
+# 2. 파일들 확인
+ls  # Dockerfile, app.py, requirements.txt 등 있어야 함
+# 3. add & commit
+git add .
+git commit -m "Copy content to main branch"
+# 4. main 브랜치를 GitHub에 push
+git push --set-upstream origin main
+git push origin main --force
+git checkout -b feature/add-docker
+git push --set-upstream origin feature/add-docker
+git status
