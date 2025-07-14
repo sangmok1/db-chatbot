@@ -32,3 +32,11 @@ git push origin
 git push --set-upstream origin master
 git config --global credential.helper store
 git status
+git add . 
+git commit -m "add"
+git push origin
+git push --set-upstream origin main
+git push origin
+git push --set-upstream origin master
+git status
+git push origin
